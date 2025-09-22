@@ -1,4 +1,4 @@
-# Company Registration & Verification Module
+# Company Registration & Verification Module (BusinessCheckIn)
 
 A full-stack web application for company registration and profile management with secure authentication, built for Bluestock Fintech internship assignment.
 
@@ -247,6 +247,9 @@ VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your_project_id
 ```
+### API Documentation(Postman)
+
+refer file : [ POSTMAN_API_DOCUMENTAION.md ]
 
 ## 🚀 Deployment
 
