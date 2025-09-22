@@ -57,6 +57,11 @@ class Company {
     const result = await pool.query(query, values);
     return result.rows[0];
   }
+
+  static async delete(id) {
+    const query = 'DELETE FROM company_profile WHERE id = $1';
+    await pool.query(query, [id]);
+  }
 }
 
 module.exports = Company;

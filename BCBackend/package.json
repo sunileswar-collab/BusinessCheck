@@ -1,25 +1,48 @@
 {
   "name": "bcbackend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Company Registration Backend - Bluestock Fintech Assignment",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --detectOpenHandles",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "company",
+    "registration",
+    "authentication",
+    "nodejs",
+    "express",
+    "postgresql"
+  ],
+  "author": "Bluestock Fintech Intern",
+  "license": "PROPRIETARY",
   "dependencies": {
-    "bcrypt": "^6.0.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.3",
     "compression": "^1.8.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0",
+    "express": "^4.18.2",
     "express-validator": "^7.2.1",
+    "firebase-admin": "^11.11.1",
     "helmet": "^8.1.0",
+    "http-errors": "^1.8.1",
     "jsonwebtoken": "^9.0.2",
     "libphonenumber-js": "^1.12.17",
+    "multer": "^2.0.2",
     "pg": "^8.16.3",
     "sanitize-html": "^2.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }

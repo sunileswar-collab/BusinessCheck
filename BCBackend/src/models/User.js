@@ -42,6 +42,11 @@ class User {
   static async validatePassword(plainPassword, hashedPassword) {
     return await bcrypt.compare(plainPassword, hashedPassword);
   }
+
+  static async delete(id) {
+    const query = 'DELETE FROM users WHERE id = $1';
+    await pool.query(query, [id]);
+  }
 }
 
 module.exports = User;
