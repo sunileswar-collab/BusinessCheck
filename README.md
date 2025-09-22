@@ -259,21 +259,9 @@ VITE_FIREBASE_PROJECT_ID=your_project_id
 1. Build for production: `npm run build`
 2. Deploy the `dist` folder to your hosting service
 
-## 📞 Support
-
-For technical support or questions, contact: 9209550273 (WhatsApp)
-
 ## 📄 License
 
 This project is confidential and proprietary to Bluestock Fintech. Not for public distribution.
 
-## 🎯 Demo Requirements
-
-- **Date**: August 13, 2025
-- **Platform**: Microsoft Teams/Google Meet
-- **Language**: English, Hindi, or Marathi
-- **Scope**: Full application demo with API testing
-
----
 
 **Note**: This project is developed as part of the Bluestock Fintech internship assignment and follows all specified requirements including Firebase authentication, Cloudinary image storage, PostgreSQL database, and comprehensive testing.
