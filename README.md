@@ -2,6 +2,9 @@
 
 A full-stack web application for company registration and profile management with secure authentication, built for Bluestock Fintech internship assignment.
 
+##GDrive Link : [https://drive.google.com/file/d/193AWzvXn26tmcmOSNVDC6crCURBjcmoj/view?usp=drive_link] (mp4 video file)
+
+
 ## 🚀 Features
 
 - **User Authentication**: Email/password registration with Firebase integration
