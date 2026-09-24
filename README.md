@@ -265,9 +265,3 @@ refer file : [ POSTMAN_API_DOCUMENTAION.md ]
 1. Build for production: `npm run build`
 2. Deploy the `dist` folder to your hosting service
 
-## 📄 License
-
-This project is confidential and proprietary to Bluestock Fintech. Not for public distribution.
-
-
-**Note**: This project is developed as part of the Bluestock Fintech internship assignment and follows all specified requirements including Firebase authentication, Cloudinary image storage, PostgreSQL database, and comprehensive testing.
